@@ -8,7 +8,7 @@ O objetivo da Tio Patinhas é você no controle do seu dinheiro, nosso aplicativ
 
 **Como usar?**
 
-entre no arquivo, procure por "src" clique duas vezes até abri a pasta em seguida clique no *"main.py"* e execute.
+Clique em TPC.exe e execute o programa.
 
 **-----------**
 
