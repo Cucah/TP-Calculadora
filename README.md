@@ -1,18 +1,40 @@
-# QPA-Calculadora
+# TP-Calculadora
 (PT-BR)
 
-QPA (Quarteto Projeto Amador) é uma calculadora de gastos, feita para você sempre estar ciente e atento ao seu dinheiro.
+**Tio Patinhas** é uma calculadora financeira, criada para você estar sempre ciente e atento ao seu dinheiro.
+O objetivo da Tio Patinhas é você no controle do seu dinheiro, nosso aplicativo darás dicas e recomendações de como economizar e melhorar suas despesas.
 
-Como usar?
+**----------**
 
-clique no QPA-C.exe e execute, o programa rodará normalmente.
+**Como usar?**
 
-Projeto feito para apresentação, aprendizagem e experimentação para a vida profissional, todo o projeto foi documentado, possibilitando aqueles que se interessam em aprender, ter a possibilidade de entender como funciona a criação, organização, experimentação, implementação, teste e finalização.
-Sistemas utilizados: VS Code, Python, CustomTkinter (CTK) e JSON.
-Tempo de produção: ~5 meses.
+entre no arquivo, procure por "src" clique duas vezes até abri a pasta em seguida clique no *"main.py"* e execute.
 
+**-----------**
 
-Programação: Pedro Henrique Anjo da S. Ramos
-Design e layout: Fernando F. Pereira e Caio M. Osugi
+**Informações:**
+
+O *Tio Patinhas* é um projeto escolar feito para a finalização do curso técnico de TI da escola Amador e Catharina Saporito Augusto.
+Toda a documentação estará disponibilizada no fim desse projeto. disponibilizaremos um arquivo word, nesse arquivo, será possivel ver como é feito a organização, pesquisa, feedback, prática, melhorias e etc.
+ainda estamos no processo de finalização do projeto.
+
+Programas e linguagens utilizadas: VS Code, CustomTkinter (CTK), Python, JSON e Ibis Paint X.
+outros arquivos também foram utilizados, mas com menor relevância, .ico, .txt e .png.
+
+*Tempo de produção: ~8 meses*
+
+**-----------**
+
+**Outros:**
+
+*Programação:* 
+Pedro Henrique Anjo da S. Ramos (@eu.n.mn)
+
+*Design, UI e UX:* 
+Fernando F. Pereira (@bs_f3r_mg),  
+Caio M. Osugi (@caioosugi15)
+
+*Pesquisa e Organização:* 
+Nicollas Algarte (@nicollasalgarte68)
 
 
