@@ -8,7 +8,7 @@ O objetivo da Tio Patinhas é você no controle do seu dinheiro, nosso aplicativ
 
 **Como usar?**
 
-Clique em TPC.exe e execute o programa.
+Clique em TPC.ink e execute o programa.
 
 **-----------**
 
@@ -18,7 +18,7 @@ O *Tio Patinhas* é um projeto escolar feito para a finalização do curso técn
 Toda a documentação estará disponibilizada no fim desse projeto. disponibilizaremos um arquivo word, nesse arquivo, será possivel ver como é feito a organização, pesquisa, feedback, prática, melhorias e etc.
 ainda estamos no processo de finalização do projeto.
 
-Programas e linguagens utilizadas: VS Code, CustomTkinter (CTK), HTML, Python, Pyinstaller, JSON e Ibis Paint X.
+Programas e linguagens utilizadas: VS Code, CustomTkinter (CTK), HTML, TeX, Python, Pyinstaller, JSON e Ibis Paint X.
 outros arquivos também foram utilizados, mas com menor relevância, .ico, .txt, .exe e .png.
 
 *Tempo de produção: ~8 meses*
