@@ -18,8 +18,8 @@ O *Tio Patinhas* é um projeto escolar feito para a finalização do curso técn
 Toda a documentação estará disponibilizada no fim desse projeto. disponibilizaremos um arquivo word, nesse arquivo, será possivel ver como é feito a organização, pesquisa, feedback, prática, melhorias e etc.
 ainda estamos no processo de finalização do projeto.
 
-Programas e linguagens utilizadas: VS Code, CustomTkinter (CTK), Python, JSON e Ibis Paint X.
-outros arquivos também foram utilizados, mas com menor relevância, .ico, .txt e .png.
+Programas e linguagens utilizadas: VS Code, CustomTkinter (CTK), HTML, Python, Pyinstaller, JSON e Ibis Paint X.
+outros arquivos também foram utilizados, mas com menor relevância, .ico, .txt, .exe e .png.
 
 *Tempo de produção: ~8 meses*
 
