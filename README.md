@@ -41,7 +41,9 @@ Caio M. Osugi (@caioosugi15)
 Nicollas Algarte (@nicollasalgarte68)
 
 *Agradecimentos:*
-Afonso Fonseca ("Python")
+
+Afonso Fonseca ("Python"),
+Elane P. Santos
 
 
 
