@@ -440,7 +440,7 @@ class App(ctk.CTk):
             command=self.abrir_dialogo_salario,
         ).pack(fill="x", padx=12, pady=(6, 12))
 
-        ctk.CTkLabel(barra, text="v0.5 private", font=("Arial", 11), text_color=MUDO).grid(
+        ctk.CTkLabel(barra, text="v0.5 public", font=("Arial", 11), text_color=MUDO).grid(
             row=12, column=0, padx=20, pady=(4, 14), sticky="sw"
         )
 
