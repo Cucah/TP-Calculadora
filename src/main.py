@@ -3,17 +3,30 @@ import tkinter as tk
 import os
 import json
 import math
+import sys
 from datetime import date
 from tkinter import messagebox
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("green")
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ARQUIVO_DADOS = os.path.join(BASE_DIR, "dados.json")
+def caminho_recurso(relativo):
+    """Arquivos empacotados dentro do .exe (ex.: ícone)."""
+    base = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base, relativo)
+
+
+def pasta_dados():
+    """Pasta onde o dados.json fica (ao lado do .exe, ou do .py)."""
+    if getattr(sys, "frozen", False):  # rodando como .exe
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.abspath(__file__))
+
+
+ARQUIVO_DADOS = os.path.join(pasta_dados(), "dados.json")
 ICONES = [
-    os.path.join(BASE_DIR, "assets", "icon.ico"),
-    os.path.join(BASE_DIR, "..", "assets", "icon.ico"),
+    caminho_recurso(os.path.join("assets", "icon.ico")),
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "icon.ico"),
 ]
 
 # ---------- paleta: carvão + ouro (tema Tio Patinhas) ----------
@@ -440,7 +453,7 @@ class App(ctk.CTk):
             command=self.abrir_dialogo_salario,
         ).pack(fill="x", padx=12, pady=(6, 12))
 
-        ctk.CTkLabel(barra, text="v0.5 public", font=("Arial", 11), text_color=MUDO).grid(
+        ctk.CTkLabel(barra, text="v0.5.1 public", font=("Arial", 11), text_color=MUDO).grid(
             row=12, column=0, padx=20, pady=(4, 14), sticky="sw"
         )
 
